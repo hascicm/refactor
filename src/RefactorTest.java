@@ -14,6 +14,7 @@ public class RefactorTest {
 		try {
 			System.out.println("Testing2");
 		} catch(Exception e) {
+			throw e;
 		}
 	}
 }
