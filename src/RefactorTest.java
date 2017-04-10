@@ -1,11 +1,7 @@
 public class RefactorTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-	}
-	
-	private void managePerson(String name, String surrName, int age, int id, int id_card, String city, String address) {
-		try {
+	try {
 			System.out.println("Testing");
 		} catch(Exception e) {
 			
@@ -16,5 +12,9 @@ public class RefactorTest {
 		} catch(Exception e) {
 			throw e;
 		}
+	}
+	
+	private void managePerson(String name, String surrName, int age, int id, int id_card, String city, String address) {
+
 	}
 }
