@@ -6,6 +6,11 @@ public class RefactorTest {
 		} catch(Exception e) {
 			
 		}
+		try {
+			System.out.println("Testing");
+		} catch(Exception e) {
+			
+		}	
 		
 		try {
 			System.out.println("Testing2");
