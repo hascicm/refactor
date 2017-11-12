@@ -19,6 +19,8 @@ public class RefactorTest {
 		} catch(Exception e) {
 			throw e;
 		}
+	int i = 5; 
+	i *= 156; 
 	}
 	
 	private void managePerson(String name, String surrName, int age, int id, int id_card, String city, String address) {
