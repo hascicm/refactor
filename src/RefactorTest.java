@@ -1,3 +1,5 @@
+package testpackage;
+
 public class RefactorTest {
 
 	public static void main(String[] args) {
