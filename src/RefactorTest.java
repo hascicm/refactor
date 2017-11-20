@@ -26,4 +26,14 @@ public class RefactorTest {
 	private void managePerson(String name, String surrName, int age, int id, int id_card, String city, String address) {
 
 	}
+	public class inner {
+		public static void ineerMethod(){
+			try {
+				System.out.println("Testing2");
+			} catch(Exception e) {
+				throw e;
+			}
+		}
+	
+	} 
 }
