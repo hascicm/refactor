@@ -15,13 +15,14 @@ public class RefactorTest {
 		}	
 		
 		try {
+			chain = A().B().C().D().E();
 			System.out.println("Testing2");
 		} catch(Exception e) {
 			throw e;
 		}
 	int i = 5; 
 	i *= 156; 
-	chain = A().B().C().D().E();
+	
 	}
 	
 	private void managePerson(String name, String surrName, int age, int id, int id_card, String city, String address) {
