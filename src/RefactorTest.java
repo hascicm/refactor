@@ -21,6 +21,7 @@ public class RefactorTest {
 		}
 	int i = 5; 
 	i *= 156; 
+	chain = A().B().C().D().E();
 	}
 	
 	private void managePerson(String name, String surrName, int age, int id, int id_card, String city, String address) {
