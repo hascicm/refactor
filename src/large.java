@@ -6,65 +6,65 @@ import javax.ws.rs.core.Application;
 public class App extends Application {
 int x = call1().call2().call3().call4();
   
-  public void 1(){
+  public void a(){
   }
-  public void 2(){
-  }
-
-  public void 3(){
+  public void b(){
   }
 
-  public void 4(){
+  public void c(){
   }
 
-  public void 5(){
+  public void d(){
   }
 
-  public void 6(){
+  public void e(){
   }
 
-  public void 7(){
+  public void f(){
   }
 
-  public void 8(){
+  public void g(){
   }
 
-  public void 9(){
+  public void h(){
   }
 
-  public void 10(){
+  public void i(){
   }
 
-  public void 11(){
+  public void j(){
   }
 
-  public void 12(){
+  public void k(){
   }
 
-  public void 13(){
+  public void l(){
   }
 
-  public void 14(){
+  public void m(){
   }
 
-  public void 15(){
-  }
-  public void 16(){
+  public void n(){
   }
 
-  public void 17(){
+  public void o(){
+  }
+  public void p(){
   }
 
-  public void 18(){
+  public void q(){
   }
 
-  public void 19(){
+  public void r(){
   }
 
-  public void 20(){
+  public void s(){
   }
 
-  public void 21(){
+  public void t(){
+  }
+
+  public void u(){
   }
 
 
