@@ -7,8 +7,13 @@ public class App extends Application {
 
 	int x = call1().call2().call3().call4();
 
-	String x = "(" + mobilePhone.getAreaCode() + ") " + mobilePhone.getPrefix() + "-" + mobilePhone.getNumberA()
-			+ mobilePhone.getNumberB() + mobilePhone.getNumberC();
+	public void featureEnvy() {
+		String x = mobilePhone.getAreaCode();
+		String y =  mobilePhone.getPrefix();
+		String z =  mobilePhone.getNumberA()
+		String q = 	mobilePhone.getNumberC();
+
+	}
 
 	public void a() {
 	}
