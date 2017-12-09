@@ -1,6 +1,6 @@
 package sk.fiit.dp.refactor.model.explanation;
 
-public class RepairExplanationTempObject {
+public class lazyAndData {
 	private String refactoringCode;
 	private String code;
 

@@ -4,69 +4,73 @@ import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
 public class App extends Application {
-int x = call1().call2().call3().call4();
-  
-  public void a(){
-  }
-  public void b(){
-  }
 
-  public void c(){
-  }
+	int x = call1().call2().call3().call4();
 
-  public void d(){
-  }
+	String x = "(" + mobilePhone.getAreaCode() + ") " + mobilePhone.getPrefix() + "-" + mobilePhone.getNumberA()
+			+ mobilePhone.getNumberB() + mobilePhone.getNumberC();
 
-  public void e(){
-  }
+	public void a() {
+	}
 
-  public void f(){
-  }
+	public void b() {
+	}
 
-  public void g(){
-  }
+	public void c() {
+	}
 
-  public void h(){
-  }
+	public void d() {
+	}
 
-  public void i(){
-  }
+	public void e() {
+	}
 
-  public void j(){
-  }
+	public void f() {
+	}
 
-  public void k(){
-  }
+	public void g() {
+	}
 
-  public void l(){
-  }
+	public void h() {
+	}
 
-  public void m(){
-  }
+	public void i() {
+	}
 
-  public void n(){
-  }
+	public void j() {
+	}
 
-  public void o(){
-  }
-  public void p(){
-  }
+	public void k() {
+	}
 
-  public void q(){
-  }
+	public void l() {
+	}
 
-  public void r(){
-  }
+	public void m() {
+	}
 
-  public void s(){
-  }
+	public void n() {
+	}
 
-  public void t(){
-  }
+	public void o() {
+	}
 
-  public void u(){
-  }
+	public void p() {
+	}
 
+	public void q() {
+	}
 
+	public void r() {
+	}
+
+	public void s() {
+	}
+
+	public void t() {
+	}
+
+	public void u() {
+	}
 
 }
