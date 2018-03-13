@@ -10,7 +10,7 @@ public class App extends Application {
 	public void featureEnvy() {
 		mobilePhone.getAreaCode();
 		mobilePhone.getPrefix();
-		mobilePhone.getNumberA()
+		mobilePhone.getNumberA();
 		mobilePhone.getNumberC();
 
 	}
