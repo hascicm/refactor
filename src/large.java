@@ -3,17 +3,21 @@ package sk.fiit.dp.refactor;
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
-public class App extends Application {
+//REFACTOR - Large Class
+  // smelltag end   : LC1 //SMELL: #SmellType(Large Class)
+ public class App extends Application {
 
 	int x = call1().call2().call3().call4();
 
-	public void featureEnvy() {
+	//REFACTOR - Feature Envy
+  // smelltag end   : FE1 //SMELL: #SmellType(Feature Envy)
+ public void featureEnvy() {
 		mobilePhone.getAreaCode();
 		mobilePhone.getPrefix();
 		mobilePhone.getNumberA();
 		mobilePhone.getNumberC();
 
-	}
+	}// smelltag start : FE1 
 
 	public void a() {
 	}
@@ -78,4 +82,4 @@ public class App extends Application {
 	public void u() {
 	}
 
-}
+}// smelltag start : LC1 

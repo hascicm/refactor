@@ -1,8 +1,12 @@
 
-public class largeAndSwitch {
+//REFACTOR - Large Class
+  // smelltag end   : LC2 //SMELL: #SmellType(Large Class)
+ public class largeAndSwitch {
 	public void switchsmell() {
 
-		switch (month) {
+		//REFACTOR - Switch Statement
+  // smelltag end   : SS1 //SMELL: #SmellType(Switch Statements)
+ switch (month) {
 		case 1:
 			monthString = "January";
 			break;
@@ -42,7 +46,7 @@ public class largeAndSwitch {
 		default:
 			monthString = "Invalid month";
 			break;
-		}
+		}// smelltag start : SS1 
 	}
 
 	public void a() {
@@ -107,4 +111,4 @@ public class largeAndSwitch {
 
 	public void u() {
 	}
-}
+}// smelltag start : LC2 
