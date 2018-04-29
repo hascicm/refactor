@@ -1,8 +1,22 @@
 
-public class largeAndSwitch {
+
+//REFACTOR - Large Class
+//begining of smell with identificator: LC2 
+//SMELL: #SmellType(Large Class) 
+//EXPLANATION smellname : Large Class 
+//EXPLANATION description :A class contains many fields/methods/lines of code. 
+//EXPLANATION possible repairs :Duplicate Observed Data, Extract Interface, Extract Class, Extract Subclass, 
+ public class largeAndSwitch {
 	public void switchsmell() {
 
-		switch (month) {
+		
+//REFACTOR - Switch Statement
+//begining of smell with identificator: SS1 
+//SMELL: #SmellType(Switch Statements) 
+//EXPLANATION smellname : Switch Statements 
+//EXPLANATION description :Relatively rare use of switch and case operators is one of the hallmarks of object-oriented code. Often code for a single switch can be scattered in different places in the program. When a new condition is added, you have to find all the switch code and modify it. 
+//EXPLANATION possible repairs :Replace Conditional with Polymorphism, Replace Parameter with Explicit Methods, Replace Type Code with State/Strategy, Replace Type Code with Subclasses, Introduce Null Object, Move Method, 
+ switch (month) {
 		case 1:
 			monthString = "January";
 			break;
@@ -43,6 +57,7 @@ public class largeAndSwitch {
 			monthString = "Invalid month";
 			break;
 		}
+//end of smell with identificator: SS1 
 	}
 
 	public void a() {
@@ -108,3 +123,4 @@ public class largeAndSwitch {
 	public void u() {
 	}
 }
+//end of smell with identificator: LC2 
