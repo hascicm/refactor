@@ -1,8 +1,18 @@
 
+
+//REFACTOR - Large Class
+//begining of smell with identificator: LC2 
+//SMELL: #SmellType(Large Class)
+ 
 public class largeAndSwitch {
 	public void switchsmell() {
 
-		switch (month) {
+		
+//REFACTOR - Switch Statement
+//begining of smell with identificator: SS1 
+//SMELL: #SmellType(Switch Statements)
+ 
+switch (month) {
 		case 1:
 			monthString = "January";
 			break;
@@ -43,6 +53,7 @@ public class largeAndSwitch {
 			monthString = "Invalid month";
 			break;
 		}
+//end of smell with identificator: SS1 
 	}
 
 	public void a() {
@@ -108,3 +119,4 @@ public class largeAndSwitch {
 	public void u() {
 	}
 }
+//end of smell with identificator: LC2 

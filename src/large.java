@@ -3,17 +3,28 @@ package sk.fiit.dp.refactor;
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
+
+//REFACTOR - Large Class
+//begining of smell with identificator: LC1 
+//SMELL: #SmellType(Large Class)
+ 
 public class App extends Application {
 
 	int x = call1().call2().call3().call4();
 
-	public void featureEnvy() {
+	
+//REFACTOR - Feature Envy
+//begining of smell with identificator: FE1 
+//SMELL: #SmellType(Feature Envy)
+ 
+public void featureEnvy() {
 		mobilePhone.getAreaCode();
 		mobilePhone.getPrefix();
 		mobilePhone.getNumberA();
 		mobilePhone.getNumberC();
 
 	}
+//end of smell with identificator: FE1 
 
 	public void a() {
 	}
@@ -79,3 +90,4 @@ public class App extends Application {
 	}
 
 }
+//end of smell with identificator: LC1 
