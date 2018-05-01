@@ -3,11 +3,23 @@ package sk.fiit.dp.refactor;
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
-public class App extends Application {
+
+//REFACTOR - Large Class
+//SMELL: #SmellType(Large Class) 
+//EXPLANATION smellname : Large Class 
+//EXPLANATION description :A class contains many fields/methods/lines of code. 
+//EXPLANATION possible repairs :Duplicate Observed Data, Extract Interface, Extract Class, Extract Subclass, 
+ public class App extends Application {
 
 	int x = call1().call2().call3().call4();
 
-	public void featureEnvy() {
+	
+//REFACTOR - Feature Envy
+//SMELL: #SmellType(Feature Envy) 
+//EXPLANATION smellname : Feature Envy 
+//EXPLANATION description :A method accesses the data of another object more than its own data. 
+//EXPLANATION possible repairs :Extract Method, Move Method, 
+ public void featureEnvy() {
 		mobilePhone.getAreaCode();
 		mobilePhone.getPrefix();
 		mobilePhone.getNumberA();
