@@ -2,7 +2,7 @@ package testpackage;
 
 public class RefactorTest {
 
-	public static void main(String[] args) {
+	private static final int CONST156= 156;public static void main(String[] args) {
 	try {
 			System.out.println("Testing");
 		} 
@@ -12,8 +12,9 @@ public class RefactorTest {
 //EXPLANATION description :Catch should at least contain logging mechanism for exception 
 //EXPLANATION possible repairs :Log Exception, 
  catch(Exception e) {
-			
-		}
+  		e.printStackTrace();
+ 		
+	}
 		try {
 			System.out.println("Testing");
 		} 
@@ -23,8 +24,9 @@ public class RefactorTest {
 //EXPLANATION description :Catch should at least contain logging mechanism for exception 
 //EXPLANATION possible repairs :Log Exception, 
  catch(Exception e) {
-			
-		}	
+  		e.printStackTrace();
+ 		
+	}	
 		
 		
 //REFACTOR - Catch and Rethrow
@@ -32,7 +34,7 @@ public class RefactorTest {
 //EXPLANATION smellname : Catch and Rethrow 
 //EXPLANATION description :Catching exception and rethrowing it is bad, it should be handled in method which catches the exception. 
 //EXPLANATION possible repairs :Remove Exception Throw, Remove Try-Catch, 
- try {
+ {
 			
 //REFACTOR - Message Chains
 //SMELL: #SmellType(Message Chains) 
@@ -41,8 +43,6 @@ public class RefactorTest {
 //EXPLANATION possible repairs :Extract Method, Hide Delegate, Move Method, 
  chain = A().B().C().D().E();
 			System.out.println("Testing2");
-		} catch(Exception e) {
-			throw e;
 		}
 	int i = 5; 
 	i *= 
@@ -51,7 +51,7 @@ public class RefactorTest {
 //EXPLANATION smellname : Magic Numbers 
 //EXPLANATION description :Magic constant should be replaced with constant 
 //EXPLANATION possible repairs :Replace Magic Number with Symbolic Constant, 
- 156; 
+ CONST156; 
 	
 	}
 	
@@ -61,7 +61,8 @@ public class RefactorTest {
 //EXPLANATION smellname : Long Parameter List 
 //EXPLANATION description :There are too many paramethers for method 
 //EXPLANATION possible repairs :Preserve Whole Object, Replace Parameter with Method, Introduce Parameter Object, 
- private void managePerson(String name, String surrName, int age, int id, int id_card, String city, String address) {
+ private void managePerson(ParameterObjectparameterObject
+       ) {
 
 	}
 	public class inner {
@@ -72,12 +73,12 @@ public class RefactorTest {
 //EXPLANATION smellname : Catch and Rethrow 
 //EXPLANATION description :Catching exception and rethrowing it is bad, it should be handled in method which catches the exception. 
 //EXPLANATION possible repairs :Remove Exception Throw, Remove Try-Catch, 
- try {
+ {
 				System.out.println("Testing2");
-			} catch(Exception e) {
-				throw e;
 			}
 		}
 	
 	} 
-}
+}private class ParameterObject {
+          String nameString surrNameint ageint idint id_cardString cityString address;
+        }
