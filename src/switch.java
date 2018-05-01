@@ -1,8 +1,14 @@
 
+
+//REFACTOR - Large Class
+//SMELL: #SmellType(Large Class) 
 public class largeAndSwitch {
 	public void switchsmell() {
 
-		switch (month) {
+		
+//REFACTOR - Switch Statement
+//SMELL: #SmellType(Switch Statements) 
+switch (month) {
 		case 1:
 			monthString = "January";
 			break;

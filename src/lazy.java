@@ -1,5 +1,11 @@
 package sk.fiit.dp.refactor.model.explanation;
 
+
+//REFACTOR - Lazy Class
+//SMELL: #SmellType(Lazy Class) 
+
+//REFACTOR - Data Class
+//SMELL: #SmellType(Data Class) 
 public class lazyAndData {
 	private String refactoringCode;
 	private String code;
