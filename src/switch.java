@@ -1,8 +1,22 @@
 
+//SMELL: #SmellType(Move this file to a named package. [SONAR])
+
+//SMELL: #SmellType(Rename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'. [SONAR])
+
+//SMELL: #SmellType(3 duplicated blocks of code must be removed. [SONAR])
+
+
+//REFACTOR - Large Class
+//begining of smell with identificator: LC2 
+//SMELL: #SmellType(Large Class) 
 public class largeAndSwitch {
 	public void switchsmell() {
 
-		switch (month) {
+		
+//REFACTOR - Switch Statement
+//begining of smell with identificator: SS1 
+//SMELL: #SmellType(Switch Statements) 
+switch (month) {
 		case 1:
 			monthString = "January";
 			break;
@@ -42,46 +56,89 @@ public class largeAndSwitch {
 		default:
 			monthString = "Invalid month";
 			break;
+
+//SMELL: #SmellType(Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation. [SONAR])
 		}
+//end of smell with identificator: SS1 
 	}
+
+//SMELL: #SmellType(Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation. [SONAR])
 
 	public void a() {
+
+//SMELL: #SmellType(Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation. [SONAR])
 	}
 
+
+//SMELL: #SmellType(Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation. [SONAR])
 	public void b() {
 	}
 
+//SMELL: #SmellType(Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation. [SONAR])
+
 	public void c() {
+
+//SMELL: #SmellType(Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation. [SONAR])
 	}
 
+
+//SMELL: #SmellType(Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation. [SONAR])
 	public void d() {
 	}
 
+//SMELL: #SmellType(Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation. [SONAR])
+
 	public void e() {
+
+//SMELL: #SmellType(Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation. [SONAR])
 	}
 
+
+//SMELL: #SmellType(Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation. [SONAR])
 	public void f() {
 	}
 
+//SMELL: #SmellType(Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation. [SONAR])
+
 	public void g() {
+
+//SMELL: #SmellType(Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation. [SONAR])
 	}
 
+
+//SMELL: #SmellType(Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation. [SONAR])
 	public void h() {
 	}
 
+//SMELL: #SmellType(Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation. [SONAR])
+
 	public void i() {
+
+//SMELL: #SmellType(Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation. [SONAR])
 	}
 
+
+//SMELL: #SmellType(Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation. [SONAR])
 	public void j() {
 	}
 
+//SMELL: #SmellType(Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation. [SONAR])
+
 	public void k() {
+
+//SMELL: #SmellType(Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation. [SONAR])
 	}
 
+
+//SMELL: #SmellType(Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation. [SONAR])
 	public void l() {
 	}
 
+//SMELL: #SmellType(Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation. [SONAR])
+
 	public void m() {
+
+//SMELL: #SmellType(Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation. [SONAR])
 	}
 
 	public void n() {
@@ -108,3 +165,4 @@ public class largeAndSwitch {
 	public void u() {
 	}
 }
+//end of smell with identificator: LC2 
